@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet Trips - Wisata Tomohon</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="dashboard-container">
+    <!-- Sidebar Navigasi -->
+    <aside class="sidebar">
+      <div class="brand">
+        <i class="fa-solid fa-earth-americas"></i>
+        <h2>Planet Trips</h2>
+      </div>
+      <ul class="nav-links">
+        <li class="active"><a href="#"><i class="fa-solid fa-compass"></i> Explore Destinations</a></li>
+        <li><a href="#"><i class="fa-solid fa-map-location-dot"></i> Plan Your Trip</a></li>
+        <li><a href="#"><i class="fa-solid fa-comments"></i> Consultation</a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i> My Profile</a></li>
+      </ul>
+    </aside>
+
+    <!-- Content Utama -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Cari destinasi di Tomohon...">
+        </div>
+        <div class="user-widgets">
+          <div class="icon-btn"><i class="fa-solid fa-bell"></i></div>
+          <div class="profile-mini">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC2-QCZjTkUuwJ7bBReyibID0btsKEBCKVHaTsu-Ka7g&s=10" alt="Profile">
+            <span>Mahasiswa Gacor</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Dashboard Content Grid -->
+      <div class="content-grid">
+        
+        <!-- Section: Plan Your Trip -->
+        <section class="card plan-section">
+          <div class="card-header">
+            <h3>Plan Your Trip (Tomohon)</h3>
+            <a href="#" class="see-all">Lihat Semua</a>
+          </div>
+          <div class="trip-list">
+            <div class="trip-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSPYuUt7jXcwM_cMjRWSF_I1xVKeahmrs0N0ZatNhGxg&s=10" alt="Danau Linow">
+              <div class="trip-info">
+                <h4>Tur Danau Linow</h4>
+                <p><i class="fa-solid fa-calendar"></i> 18 - 19 Des 2026</p>
+                <span class="badge confirmed">Confirmed</span>
+              </div>
+            </div>
+            <div class="trip-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Lokon.JPG?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=original" alt="Gunung Lokon">
+              <div class="trip-info">
+                <h4>Trekking Gunung Lokon</h4>
+                <p><i class="fa-solid fa-calendar"></i> 05 - 06 Jan 2027</p>
+                <span class="badge planning">In Planning</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Explore Destinations (Tempat Wisata Tomohon) -->
+        <section class="card explore-section">
+          <div class="card-header">
+            <h3>Explore Destinations</h3>
+            <a href="#" class="see-all">Jelajahi</a>
+          </div>
+          <div class="dest-grid">
+            
+            <div class="dest-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSPYuUt7jXcwM_cMjRWSF_I1xVKeahmrs0N0ZatNhGxg&s=10" alt="Danau Linow">
+              <div class="dest-details">
+                <h4>Danau Linow</h4>
+                <p><i class="fa-solid fa-star"></i> 4.9 | Lahendong</p>
+              </div>
+            </div>
+
+            <div class="dest-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYjD_6lRXXDri_yw8p9keOF-gO_8heArQh7pgXulCYg&s=10" alt="Bukit Doa Mahawu">
+              <div class="dest-details">
+                <h4>Bukit Doa Mahawu</h4>
+                <p><i class="fa-solid fa-star"></i> 4.8 | Kakaskasen</p>
+              </div>
+            </div>
+
+            <div class="dest-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Lokon.JPG?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=original" alt="Gunung Lokon">
+              <div class="dest-details">
+                <h4>Gunung Lokon</h4>
+                <p><i class="fa-solid fa-star"></i> 4.7 | Tomohon Utara</p>
+              </div>
+            </div>
+
+            <div class="dest-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBhr3PsG5zkcEUshFF0M8-rUyYdVu5XNF0p5Kk2De8MQ&s=10" alt="Menara Alfa Omega">
+              <div class="dest-details">
+                <h4>Menara Alfa Omega</h4>
+                <p><i class="fa-solid fa-star"></i> 4.6 | Pusat Kota</p>
+              </div>
+            </div>
+
+            <div class="dest-card full-width">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZmqmO8FIVi7X5OmF31kn--5_oIn3PcCw5-Y3OTnK1g&s=10" alt="Mahwatu">
+              <div class="dest-details">
+                <h4>Mahwatu (Taman Bunga)</h4>
+                <p><i class="fa-solid fa-star"></i> 4.8 | Rurukan</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Section: Consultation -->
+      <section class="card consultation-section">
+        <div class="card-header">
+          <h3>Consultation</h3>
+        </div>
+        <div class="consultation-box">
+          <div class="consult-info">
+            <i class="fa-solid fa-comments"></i>
+            <div>
+              <h4>Butuh Rencana Perjalanan ke Tomohon?</h4>
+              <p>Tanyakan rekomendasi rute wisata alam & budaya Kota Bunga Tomohon pada konsultan kami.</p>
+            </div>
+          </div>
+          <button class="btn-consult">Mulai Chat</button>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
